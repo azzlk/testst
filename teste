@@ -1,0 +1,9 @@
+local args = {
+    [1] = "Cirebon"
+}
+game:GetService("ReplicatedStorage").NetworkContainer.RemoteEvents.TransEvent:FireServer(unpack(args))
+elseif getgenv().TPPlace == "Palimanan" then 
+local args = {
+    [1] = "Palimanan"
+}
+game:GetService("ReplicatedStorage").NetworkContainer.RemoteEvents.TransEvent:FireServer(unpack(args))
